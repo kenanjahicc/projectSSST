@@ -1,0 +1,22 @@
+/*include google fonts*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+/*include font-awesome.min.css*/
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+*,*::before,*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*basic css*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #f3f3f3;
+}
+a{
+    color: #337ab7;
+    text-decoration: none;
+}
